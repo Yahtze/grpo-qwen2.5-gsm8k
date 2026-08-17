@@ -6,8 +6,12 @@ readme = "README.md"
 authors = [
     { name = "Duvuru Yathin Reddy", email = "yathinreddy2004@gmail.com" }
 ]
-requires-python = ">=3.14"
-dependencies = []
+requires-python = ">=3.11"
+dependencies = [
+    "bitsandbytes",
+    "transformers",
+    "trl",
+]
 
 [project.scripts]
 grpo-qwen2-5-gsm8k = "grpo_qwen2_5_gsm8k:main"

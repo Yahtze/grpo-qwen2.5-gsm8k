@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Test, type-check, and lint caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Build artifacts
+build/
+dist/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ML experiment outputs
+checkpoints/
+outputs/
+runs/
+wandb/
+mlruns/
+*.log
+
+# Environment and local configuration
+.env
+.env.*
+!.env.example
+
+# Project documentation
+docs/
+
+# OS files
+.DS_Store
